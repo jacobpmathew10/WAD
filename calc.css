@@ -1,0 +1,39 @@
+#container{
+    border: 2px solid black;
+    position: relative;
+    top:150px ;
+   margin-left: auto;
+   margin-right: auto; 
+    height:250px;
+    padding: 2px;
+    background-color: gray;
+    width: 250px;
+}
+#disp{
+    width: 238px;
+}
+.bton{
+    display: inline-block;
+    margin-left: 2px;
+}
+#f1{
+    display: flex;
+}
+.but{
+    width: 80px;
+    background-color:bisque;
+    height: 45px;
+}
+#f2{
+    display: flex;
+}
+#f3{
+    display: flex;
+}
+#f4{
+    display: flex;
+}
+#f5{
+    display: flex;
+}
+

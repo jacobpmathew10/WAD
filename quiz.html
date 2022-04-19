@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <form onsubmit="validate()" name="qname">
+        <label for="qn1">1.goat of football?</label>
+        <label for="Messi">Messi</label>
+        <input type="radio" value="Messi" id="Messi" name="qn1">
+        <label for="CR7">CR7</label>
+        <input type="radio" value="CR7" id="CR7" name="qn1">
+        <label for="LEWANDOSKI">LEWANDOSKI</label>
+        <input type="radio" value="LEWANDOSKI" id="LEWANDOSKI" name="qn1">
+        <label for="kdb">KDB</label>
+        <input type="radio" value="kdb" name="qn1" id="kdb">
+
+    <br>
+    <label for="qn2">2. Greatest playmaker?</label>
+    <label for="ozil">Ozil</label>
+    <input type="radio" name="qn2" id="Ozil" value="Ozil">
+    <label for="Messi">Messi</label>
+    <input type="radio" name="qn2" id="Messi" value="Messi">
+    <label for="neymar">Neymar</label>
+    <input type="radio" name="qn2" value="neymar" id="neymar">
+    <label for="Dimaria">Dimaria</label>
+    <input type="radio" name="qn2" value="dimaria" id="dimaria">
+    <input type="submit">
+    <button onclick="displayans()">Show ans</button>
+    </form>
+</body>
